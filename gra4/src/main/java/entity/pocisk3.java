@@ -4,7 +4,7 @@
  */
 package entity;
 
-import com.mycompany.gra4.main.GamePanel;
+import main2.GamePanel;
 import java.awt.Graphics2D;
 import java.awt.Image;
 import java.io.File;
@@ -46,7 +46,7 @@ public class pocisk3 extends Entity{
     public void getImage(){
 
         try {
-            this.im = ImageIO.read(new File("src/obrazki/pocisk3.png"));
+            this.im = ImageIO.read(new File("obrazki/pocisk3.png"));
         } catch (IOException ex) {
             Logger.getLogger(ship.class.getName()).log(Level.SEVERE, null, ex);
         }

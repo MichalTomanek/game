@@ -8,17 +8,11 @@ package entity;
  *
  * @author mishi
  */
-import com.mycompany.gra4.main.GamePanel;
-import com.mycompany.gra4.main.KeyHandler;
-import java.awt.Color;
+import main2.GamePanel;
+
 import java.awt.Graphics2D;
 import java.awt.Image;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.imageio.ImageIO;
+
 import java.lang.Math;
 
 public class laser1 extends Entity{

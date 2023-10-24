@@ -4,7 +4,7 @@
  */
 package etapy;
 
-import com.mycompany.gra4.main.GamePanel;
+import main2.GamePanel;
 import entity.obiekt1A;
 import entity.obiekt2;
 import entity.obiekt3;

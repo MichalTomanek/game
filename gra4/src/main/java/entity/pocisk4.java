@@ -8,10 +8,10 @@ package entity;
  *
  * @author mishi
  */
-import com.mycompany.gra4.main.GamePanel;
+import main2.GamePanel;
 import java.awt.Graphics2D;
 import java.awt.Image;
-import java.awt.image.BufferedImage;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
@@ -45,35 +45,35 @@ public class pocisk4 extends Entity{
     public void getImage(){
             if(this.i == 0){
                 try {
-                    this.im = ImageIO.read(new File("src/obrazki/pocisk4A.png"));
+                    this.im = ImageIO.read(new File("obrazki/pocisk4A.png"));
                 } catch (IOException ex) {
                     Logger.getLogger(pocisk4.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if(this.i == 1){
                 try {
-                    this.im = ImageIO.read(new File("src/obrazki/pocisk4B.png"));
+                    this.im = ImageIO.read(new File("obrazki/pocisk4B.png"));
                 } catch (IOException ex) {
                     Logger.getLogger(pocisk4.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if(this.i == 2){
                 try {
-                    this.im = ImageIO.read(new File("src/obrazki/pocisk4C.png"));
+                    this.im = ImageIO.read(new File("obrazki/pocisk4C.png"));
                 } catch (IOException ex) {
                     Logger.getLogger(pocisk4.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if(this.i == 3){
                 try {
-                    this.im = ImageIO.read(new File("src/obrazki/pocisk4D.png"));
+                    this.im = ImageIO.read(new File("obrazki/pocisk4D.png"));
                 } catch (IOException ex) {
                     Logger.getLogger(pocisk4.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if(this.i == 4){
                 try {
-                    this.im = ImageIO.read(new File("src/obrazki/pocisk4E.png"));
+                    this.im = ImageIO.read(new File("obrazki/pocisk4E.png"));
                 } catch (IOException ex) {
                     Logger.getLogger(pocisk4.class.getName()).log(Level.SEVERE, null, ex);
                 }

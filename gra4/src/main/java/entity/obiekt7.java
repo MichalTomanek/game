@@ -4,11 +4,9 @@
  */
 package entity;
 
-import com.mycompany.gra4.main.GamePanel;
-import java.awt.Graphics2D;
-import java.util.Random;
 
-import com.mycompany.gra4.main.GamePanel;
+
+import main2.GamePanel;
 import java.awt.Graphics2D;
 import java.util.Random;
 

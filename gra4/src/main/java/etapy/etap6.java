@@ -8,12 +8,10 @@ package etapy;
  *
  * @author mishi
  */
-import com.mycompany.gra4.main.GamePanel;
-import entity.obiekt1A;
+import main2.GamePanel;
+
 import entity.obiekt1B;
-import entity.obiekt2;
-import entity.obiekt3;
-import entity.obiekt4;
+
 import entity.obiekt7;
 import entity.ship;
 import java.awt.Graphics2D;

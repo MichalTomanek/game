@@ -4,7 +4,7 @@
  */
 package etapy;
 
-import com.mycompany.gra4.main.GamePanel;
+import main2.GamePanel;
 import entity.obiekt1;
 import entity.ship;
 import java.awt.Graphics2D;

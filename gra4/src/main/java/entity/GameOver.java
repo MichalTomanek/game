@@ -8,12 +8,12 @@ package entity;
  *
  * @author mishi
  */
-import com.mycompany.gra4.main.GamePanel;
-import com.mycompany.gra4.main.KeyHandler;
-import java.awt.Color;
+
+
+import main2.GamePanel;
 import java.awt.Graphics2D;
 import java.awt.Image;
-import java.awt.image.BufferedImage;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
@@ -33,7 +33,7 @@ public class GameOver extends Entity{
     public void getImage(){
 
         try {
-            this.im = ImageIO.read(new File("src/obrazki/GO.png"));
+            this.im = ImageIO.read(new File("obrazki/GO.png"));
         } catch (IOException ex) {
             Logger.getLogger(ship.class.getName()).log(Level.SEVERE, null, ex);
         }

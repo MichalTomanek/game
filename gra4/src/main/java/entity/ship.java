@@ -4,9 +4,9 @@
  */
 package entity;
 
-import com.mycompany.gra4.main.GamePanel;
-import com.mycompany.gra4.main.KeyHandler;
-import java.awt.Color;
+import main2.GamePanel;
+import main2.KeyHandler;
+
 import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
+
 
 /**
  *
@@ -54,7 +54,7 @@ public class ship extends Entity{
     public void getImage(){
 
         try {
-            this.im = ImageIO.read(new File("src/obrazki/ship1.png"));
+            this.im = ImageIO.read(new File("obrazki/ship1.png"));
         } catch (IOException ex) {
             Logger.getLogger(ship.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -64,7 +64,7 @@ public class ship extends Entity{
     public void getImageHP(){
 
         try {
-            this.HP = ImageIO.read(new File("src/obrazki/HP.png"));
+            this.HP = ImageIO.read(new File("obrazki/HP.png"));
         } catch (IOException ex) {
             Logger.getLogger(ship.class.getName()).log(Level.SEVERE, null, ex);
         }

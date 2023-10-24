@@ -8,7 +8,7 @@ package etapy;
  *
  * @author mishi
  */
-import com.mycompany.gra4.main.GamePanel;
+import main2.GamePanel;
 import entity.laser1;
 import entity.obiekt1;
 import entity.obiekt2;
